@@ -1,0 +1,58 @@
+.container {
+  width: 360px;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evently;
+  padding: 10px;
+}
+
+form > input,
+form > textarea {
+  background: #f3f3f3;
+  border-radius: 7px;
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 15px;
+  border: 0;
+}
+
+form > input:focus,
+form > textarea:focus {
+  outline: none;
+}
+
+form > button {
+  background: #684caf;
+  color: white;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 0;
+}
+
+.result {
+  background-color: white;
+  margin: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.result > div {
+  display: flex;
+  color: darkgray;
+  gap: 20px;
+}
