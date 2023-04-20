@@ -32,4 +32,4 @@ npm run dev
 
 # Image
 
-![Cover](./public/index.png)
+![Cover](./public/assets/images/index.png)
